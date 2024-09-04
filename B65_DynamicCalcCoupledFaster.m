@@ -1,4 +1,4 @@
-function [Sol] = B65_DynamicCalcCoupledFaster(Veh,Model,Calc,Track,Sol)
+function [Sol] = B65_DynamicCalcCoupledFaster(app,Veh,Model,Calc,Track,Sol)
 
 % Faster alternative version of script B65. The main difference is that the
 % system matrices are assembled using the sparse() command
@@ -8,12 +8,6 @@ function [Sol] = B65_DynamicCalcCoupledFaster(Veh,Model,Calc,Track,Sol)
 % *** Licensed under the GNU General Public License v3.0                ***
 % *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
 % *** For help, modifications, and collaboration contact the author.    ***
-% ***                                                                   ***
-% *** If you found this tool useful, please cite:                       ***
-% *** D. Cantero. TTB-2D: Train-Track-Bridge interaction simulation tool***
-% ***   for Matlab, SoftwareX, Volume 20, 2022.                         ***
-% ***   DOI: https://doi.org/10.1016/j.softx.2022.101253                ***
-% ***                                                                   ***
 % *************************************************************************
 
 % -------------------------------------------------------------------------
@@ -244,7 +238,7 @@ for t = 1:Calc.Solver.num_t-1
     % -- Newmark-Beta --
     % Effective Stiffness Matrix
     effKg = Coup.Kg + NB_cte(1)*Coup.Mg + NB_cte(2)*Coup.Cg;
-    % Newmark-beta scheme
+    % Newmark-beta scheme (As seen in B014)
     A = Coup.U(:,t)*NB_cte(1) + Coup.V(:,t)*NB_cte(3) + Coup.A(:,t)*NB_cte(4);
     B = (NB_cte(2)*Coup.U(:,t) - NB_cte(5)*Coup.V(:,t) - NB_cte(6)*Coup.A(:,t));
     Coup.U(:,t+1) = effKg\(Coup.F + Coup.Mg*A + Coup.Cg*B);
@@ -302,7 +296,7 @@ elseif Calc.Options.VBI == 0
         Coup.F(Coup.BC.DOF_fixed) = 0;
 
         % ---- Direct integraion ----
-        % Newmark-beta scheme
+        % Newmark-beta scheme (As seen in B014)
         A = Coup.U(:,t)/(Calc.Solver.NewMark_beta*Calc.Solver.dt^2) + ...
                 Coup.V(:,t)/(Calc.Solver.NewMark_beta*Calc.Solver.dt) + ...
                 Coup.A(:,t)*(1/(2*Calc.Solver.NewMark_beta)-1);
@@ -347,7 +341,14 @@ Aux.PCtime = etime(clock,Aux.PCtime_start);
 if Aux.PCtime > Aux.last_display_time
     disp_text = ['Time step ',num2str(t-1),' of ',num2str(num_t),...
         ' (',num2str(round((t-1)/num_t*100,2)),'%)'];
-    disp(disp_text);
+    
+    currentText = app.Value;
+    newText = disp_text;
+    updatedText = [currentText ; newText];
+    app.Value = updatedText;
+    drawnow;  
+    app.scroll('bottom');
+
     Aux.last_display_time = Aux.last_display_time + Aux.disp_every_t;
 end % if Aux.PCtime > Aux.last_display_time
 

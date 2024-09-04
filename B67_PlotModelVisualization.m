@@ -9,12 +9,6 @@ function [] = B67_PlotModelVisualization(Calc,Veh,Track,Model)
 % *** Licensed under the GNU General Public License v3.0                ***
 % *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
 % *** For help, modifications, and collaboration contact the author.    ***
-% ***                                                                   ***
-% *** If you found this tool useful, please cite:                       ***
-% *** D. Cantero. TTB-2D: Train-Track-Bridge interaction simulation tool***
-% ***   for Matlab, SoftwareX, Volume 20, 2022.                         ***
-% ***   DOI: https://doi.org/10.1016/j.softx.2022.101253                ***
-% ***                                                                   ***
 % *************************************************************************
 
 % -------------------------------------------------------------------------
@@ -49,7 +43,7 @@ if Calc.Plot.Model.P00_ModelVisualization == 1
 
     % Generating figure
     fig = figure; 
-        set(gcf,'Name','Model visualization','NumberTitle','off');
+        set(gcf,'Name','Model viualization','NumberTitle','off');
         hold on; box on;
         % Rail
         plot(Model.Mesh.XLoc.rail_vert([1,end]),y_value.rail*[1,1],...
@@ -106,7 +100,7 @@ if Calc.Plot.Model.P00_ModelVisualization == 1
         % Labels and title
         xlabel('Distance');
         set(gca,'YTick',[]);
-        title('Model visualization (Press ENTER to proceed with the simulation)');
+        title('Model visualization');
         % Plot size
         aux1 = get(0,'ScreenSize');
         set(gcf,'Position',aux1)
@@ -116,7 +110,6 @@ if Calc.Plot.Model.P00_ModelVisualization == 1
     % Command window prompt
     commandwindow;
     disp('The figure "Model visualization" shows the model to simulate.')
-    input('Is this correct? (Press ENTER to proceed with the simulation)');
     close(fig);
     
 end % if Calc.Plot.Model.P00_ModelVisualization == 1

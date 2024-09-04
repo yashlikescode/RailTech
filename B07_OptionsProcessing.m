@@ -8,12 +8,6 @@ function [Calc,Train,Track,Beam] = B07_OptionsProcessing(Calc,Train,Track,Beam)
 % *** Licensed under the GNU General Public License v3.0                ***
 % *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
 % *** For help, modifications, and collaboration contact the author.    ***
-% ***                                                                   ***
-% *** If you found this tool useful, please cite:                       ***
-% *** D. Cantero. TTB-2D: Train-Track-Bridge interaction simulation tool***
-% ***   for Matlab, SoftwareX, Volume 20, 2022.                         ***
-% ***   DOI: https://doi.org/10.1016/j.softx.2022.101253                ***
-% ***                                                                   ***
 % *************************************************************************
 
 % -------------------------------------------------------------------------
@@ -354,8 +348,8 @@ if mod(Calc.Profile.L,Track.Sleeper.spacing) > Calc.Cte.tol
 end % if mod(Calc.Profile.minL,Track.Sleeper.spacing) > Calc.Cte.tol
 
 % Redux model
-if Calc.Options.redux == 0
-    disp('No redux model is used! Are sure about this?');
-end % if Calc.Options.redux == 0
+% if Calc.Options.redux == 0
+%     disp('No redux model is used! Are sure about this?');
+% end % if Calc.Options.redux == 0
 
 % ---- End of function ----
