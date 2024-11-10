@@ -20,13 +20,6 @@ function [] = C02_TimeHistoryPlot(Model,Sol,Beam,Calc)
 %       Accelerations
 % Press the button "Close" to close figure.
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Model = Structure with Model variables, including at least:

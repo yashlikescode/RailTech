@@ -2,13 +2,6 @@ function [Calc,Train,Beam] = B43_ModelGeometry(Calc,Train,Track,Beam)
 
 % Auxiliary calculations related to the model geometry
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Calc = Structure with Calc's variables, including at least:

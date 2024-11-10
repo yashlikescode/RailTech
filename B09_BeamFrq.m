@@ -2,12 +2,6 @@ function [Beam] = B09_BeamFrq(Beam,Calc)
 
 % Calculates the beam frequencies given its system matrices
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
 
 % -------------------------------------------------------------------------
 % ---- Input ----

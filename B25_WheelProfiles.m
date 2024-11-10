@@ -2,13 +2,6 @@ function [Calc] = B25_WheelProfiles(Calc,Veh)
 
 % Calculates the profile under each wheel
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % ---- Input ----
 % Calc = Structure with Calculation variables. It should include at least:

@@ -14,13 +14,6 @@ function [Sol] = B64_Coupled_InitialStatic(Veh,Model,Calc,Track)
 % Also the off-diagonal block matrices need to be multiplied by the
 %   stiffness of the primary suspension.
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Veh = Indexed structure with Veh variables, including at least:

@@ -3,13 +3,6 @@ function [Calc] = B11_TimeSpaceDiscretization(Calc)
 % Generates the uniformly spaced time discretization, 
 %   and correponding space discretization.
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % ---- Input ----
 % Calc = Structure with Calculation variables, including at least:

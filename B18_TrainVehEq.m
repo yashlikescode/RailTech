@@ -2,13 +2,6 @@ function [Veh] = B18_TrainVehEq(Veh)
 
 % Generates the train vehicle equations for all the vehicles
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % ---- Input ----
 % Veh = Indexed structure variable with information about each vehicle

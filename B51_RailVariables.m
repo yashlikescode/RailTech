@@ -2,13 +2,6 @@ function [Track] = B51_RailVariables(Track,Calc)
 
 % Definition of variables related to the Track
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Track = Structure with Track variables, including at least:

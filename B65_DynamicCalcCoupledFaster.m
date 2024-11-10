@@ -3,13 +3,6 @@ function [Sol] = B65_DynamicCalcCoupledFaster(app,Veh,Model,Calc,Track,Sol)
 % Faster alternative version of script B65. The main difference is that the
 % system matrices are assembled using the sparse() command
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Veh = Indexed structure with Veh variables, including at least:

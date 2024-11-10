@@ -2,13 +2,6 @@ function [Sol] = B58_ResultsBeamSections(Sol,Beam,Calc)
 
 % Calculates the available Beam results at predefined sections
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Sol = Structure with Sol variables, including at least:

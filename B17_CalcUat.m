@@ -3,13 +3,6 @@ function [Sol] = B17_CalcUat(Sol,Track,Calc,Veh)
 % Function to calculate the vertical displacement of the model under the
 %   wheels of each vehicle in the Train.
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Sol = Structure with Solutions's variables including at least:

@@ -2,13 +2,6 @@ function [Sol] = B33_BeamShear(Sol,Model,Beam,Calc,calc_type)
 
 % Calculates the Shear of the beam using the nodal displacements
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Sol = Structure with beam Solutions variables. It should include at least:

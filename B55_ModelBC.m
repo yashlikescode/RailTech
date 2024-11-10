@@ -2,13 +2,6 @@ function [Model] = B55_ModelBC(Model,Beam,Track)
 
 % Applies the boundary conditions to the coupled model
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Model = Structure with Model variables, including at least:

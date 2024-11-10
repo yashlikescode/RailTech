@@ -2,13 +2,6 @@ function [Model] = B54_ModelMatrices(Beam,Track,Calc)
 
 % Assembles the coupled model (Track+Beam) system matrices
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Beam = Structure with Beam variables, including at least:

@@ -3,12 +3,6 @@ function [Calc] = B10_EndTime(Calc)
 % Calculates the time t_end, when the load reaches the end of the path
 %   and generetes other position, velocities and acceleration variables.
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
 
 % -------------------------------------------------------------------------
 % ---- Input ----

@@ -3,13 +3,6 @@ function [Model] = B56_ModelFrq(Model,Calc)
 % Adapted version of B09_BeamFrq
 % Calculates the model modes and frequencies given the system matrices
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % ---- Input ----
 % Model = Structure with Model's variables, including at least:

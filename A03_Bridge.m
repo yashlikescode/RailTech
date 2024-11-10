@@ -3,13 +3,6 @@
 % Not a function.
 % Defines the content of the variable Beam.
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % A 50m bridge. Properties taken from:
 % He Xia, Nan Zhang, Guido De Roeck, Dynamic analysis of high speed railway 
 %   bridge under articulated trains, Computers & Structures, Volume 81, 

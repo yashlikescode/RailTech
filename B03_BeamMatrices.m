@@ -2,13 +2,6 @@ function [Beam] = B03_BeamMatrices(Beam)
 
 % Generates the FEM system matrices for the beam model
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Beam = Structure with Beam's variables, including at least:

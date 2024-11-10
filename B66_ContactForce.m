@@ -7,13 +7,6 @@ function [Sol] = B66_ContactForce(Sol,Track,Calc,Train)
 %   the track and produces large vertical deformations on the track, which
 %   at the same time produces large oscilations in the contact force.
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Veh = Indexed structure with Veh variables, including at least:

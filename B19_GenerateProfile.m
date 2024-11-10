@@ -1,14 +1,6 @@
 function [Calc] = B19_GenerateProfile(Calc)
 
 % Calculates the irregularity profile for the rail
-
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % ---- Input ----
 % Calc = Structre with calculation variables. It should include at least:

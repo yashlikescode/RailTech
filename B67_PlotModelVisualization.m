@@ -4,13 +4,6 @@ function [] = B67_PlotModelVisualization(Calc,Veh,Track,Model)
 % The figure is closed after the user presses ENTER, then TTB-2D proceeds
 % with the simulation.
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Calc = Structure with Calc variables, including at least:

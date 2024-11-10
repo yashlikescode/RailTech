@@ -8,13 +8,6 @@ function [Sol] = B65_DynamicCalcCoupled(Veh,Model,Calc,Track,Sol)
 %   are assembled for each integration step, and solved numerically with the
 %   Newmark-Beta algorithm
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -------------------------------------------------------------------------
 % % ---- Inputs ----
 % Veh = Indexed structure with Veh variables, including at least:

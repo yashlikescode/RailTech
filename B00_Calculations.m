@@ -9,13 +9,6 @@
 % Uses and modifies the variables: Train, Track, Beam and Calc.
 %   Generates the simulation results and saves them in variable Sol.
 
-% *************************************************************************
-% *** Script part of TTB-2D tool for Matlab environment.                ***
-% *** Licensed under the GNU General Public License v3.0                ***
-% *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
-% *** For help, modifications, and collaboration contact the author.    ***
-% *************************************************************************
-
 % -- Model geometry --
 [Calc,Train,Beam] = B43_ModelGeometry(Calc,Train,Track,Beam);
 
