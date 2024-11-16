@@ -16,3 +16,12 @@ MATLAB
 2. look for a file named ```app1.mlapp``` and double click on it
 3. That should launch matlab app designer which can be edited and run by click on the ```Run``` button at the top
 
+## UI
+### Before Calculations
+![image](https://github.com/user-attachments/assets/c4a38b19-31e1-4f15-98dd-29a1a31dde21)
+### During Calculations
+![image](https://github.com/user-attachments/assets/f9727543-65b6-43a4-9828-95a47ead4a07)
+### After Calculations
+![image](https://github.com/user-attachments/assets/f9f5890a-c832-4f5f-b0eb-763dae80f07c)
+
+
